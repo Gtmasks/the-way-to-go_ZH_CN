@@ -9,7 +9,7 @@ func SumProductDiff(i, j int) (int, int, int) {
 	return i + j, i * j, i - j
 }
 
-func SumProductDiffN(i, j int) (s int, p int, d int) {
+func SumProductDiffN(i, j int) (s , p , d int) {
 	s, p, d = i+j, i*j, i-j
 	return
 }
